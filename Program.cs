@@ -6,9 +6,21 @@
 //Console.WriteLine($"В числе {N} => {result}");
 
 
-int N = 947;
-int secondDigit = N / 10 % 10; // 947 / 10 = 94 % 10 = 4
-int thirdDigit = N % 10; //  947 % 10 = 7
-int result = (int)Math.Pow(secondDigit, thirdDigit);
+//int N = 947;
+//int secondDigit = N / 10 % 10; // 947 / 10 = 94 % 10 = 4
+//int thirdDigit = N % 10; //  947 % 10 = 7
+//int result = (int)Math.Pow(secondDigit, thirdDigit);
 
-Console.WriteLine($"{secondDigit} ^ {thirdDigit} = {result}");
+//Console.WriteLine($"{secondDigit} ^ {thirdDigit} = {result}");
+
+
+int N = 944556446;
+if (N >= 100) 
+{
+   int thirdDigitFromEnd = N / 100 % 10;
+   Console.WriteLine($"Третья цыфра с конца: {thirdDigitFromEnd}");
+}
+else
+{
+    Console.WriteLine("Третей цыфры нет");
+}
