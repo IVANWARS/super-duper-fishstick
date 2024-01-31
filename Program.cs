@@ -14,13 +14,27 @@
 //Console.WriteLine($"{secondDigit} ^ {thirdDigit} = {result}");
 
 
-int N = 944556446;
-if (N >= 100) 
+//int N = 944556446;
+//N (если >= 100) 
+//{
+  // int thirdDigitFromEnd = N / 100 % 10;
+// Консоль.WriteLine($"Третья цыфра с конца: {thirdDigitFromEnd}");
+//}
+//ещё
+//{
+ //Консоль.WriteLine("Третей цыфры нет");
+//}
+ 
+ 
+  int a = 5;
+
+  int b = 3;
+
+if (a % b == 0)
 {
-   int thirdDigitFromEnd = N / 100 % 10;
-   Console.WriteLine($"Третья цыфра с конца: {thirdDigitFromEnd}");
+    Console.WriteLine($"{a} кратно (делится без остатка ) числу {b}");
 }
 else
 {
-    Console.WriteLine("Третей цыфры нет");
+    System.Console.WriteLine($"остаток от {a} / {b} = {a % b}");
 }
